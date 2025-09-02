@@ -1,0 +1,58 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.main {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    width: 340px;
+    background-color: red;
+    border-radius: 1rem;
+    background-color: #121212;
+}
+.main-content {
+    background-color: green;
+    flex: 1;
+    overflow: auto;
+    background-color: #121212;
+}
+
+.player {
+    position: relative;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+}
+.nav{
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+}
+.nav-option{
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+}
+.nav-option:hover{
+    opacity: 1;
+    transition: ease 1s;
+}
+.nav-option i{
+    font-size: 1.25rem;
+    color: white;
+}
+.nav-option a{
+    font-size: 1rem;
+}
